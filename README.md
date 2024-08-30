@@ -8,6 +8,7 @@ Both programmes employ an automated system for allocating projects to students a
 
 A workflow for the process can be seen below, followed by more detailed instructions and templates for each step of the process.
 
+
 ### Workflow
 
 <img src = "https://github.com/scottchiesa/Project_Matching_Algorithm/blob/patch-1/Flowcharts.jpeg">
