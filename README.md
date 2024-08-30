@@ -18,7 +18,7 @@ A workflow for the process can be seen below, followed by more detailed instruct
 
 1) Potential supervisors submit project proposals using form such as that shown in following [MS Form](https://forms.office.com/e/3XSMBR9YRP)
 2) Once complete, all proposals downloaded as Excel sheet similar to that shown in 'ProjectList.xlsx' and filtered to separate iBSc and MSc projects.
-3) 'ProjectList.xlsx' merged with 'ProjectList_MailMerge.doc' to create PDF booklet to circulate to students on respective programmes.
+3) `'ProjectList.xlsx'` merged with 'ProjectList_MailMerge.doc' to create PDF booklet to circulate to students on respective programmes.
 
 ## Allocation of Projects
 ### Student Selection of Preferred Projects
