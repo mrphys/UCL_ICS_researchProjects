@@ -13,28 +13,15 @@ This page documents the process used for the UCL Institute of Cardiovascular Sci
 
 1) Potential supervisors submit project proposals using form such as that shown in following [MS Form](https://forms.office.com/e/3XSMBR9YRP)
 2) Once complete, all proposals downloaded as Excel sheet similar to that shown in ProjectList.xlsx and filtered to separate iBSc and MSc projects.
-3) MScProjectList.xlsx merged with ProjectList_MailMerge.doc to create PDF booklet to circulate to students on respective programmes.
+3) ProjectList.xlsx merged with ProjectList_MailMerge.doc to create PDF booklet to circulate to students on respective programmes.
 
 ## Allocation of Projects
 ### Student Selection of Preferred Projects
 
 1) Students with pre-arranged projects (e.g. clinical students already working with pre-existing supervisor, students who have arranged external project) removed from allocation process.
-2) All remaining students select top 6 preferences from list of available projects using form such as that shown in following [MS Form](https://forms.office.com/e/EpW7UzMGwj)
+2) All remaining students select top six desired projects from list of available projects in order of preference using form such as that shown in following [MS Form](https://forms.office.com/e/EpW7UzMGwj)
 3) Once complete, all preferences downloaded as Excel sheet similar to that shown in AllProjectData.xlsx.
 
 ### Matching of Students and Projects
 
-
-Here we use a mathematical optimizer to 'best' match between the students choices to the research projects available.
-
-We have used Google's open source software suite for optimization, OR-Tools, which provides an MPSolver wrapper for solving linear programming and mixed integer programming problems.
-
-This is a mixed integer programming (MIP) problem Since the constraints are linear, this is a linear optimization problem in which the solutions are required to be integers.
-
-More information about algorithm can be found here: https://developers.google.com/optimization/mip/mip_example
-
-We use the MIP solver 'SCIP' (Solving constraint integer problems). https://www.scipopt.org which is currently one of the fastest non-commercial solvers for mixed integer programming.
-
-SCIP is a framework for Constraint Integer Programming oriented towards the needs of mathematical programming experts who want to have total control of the solution process and access detailed information down to the guts of the solver.
-
-In SCIP the problem is successively divided into smaller subproblems (branching) that are solved recursively.(details of the algorithm can be found here: https://www.scipopt.org/doc/html/WHATPROBLEMS.php )
+Here we use a mathematical optimizer to 'best' match between the students choices to the research projects available. We have used Google's open source software suite for optimization, OR-Tools, which provides an MPSolver wrapper for solving linear programming and mixed integer programming problems. This is a mixed integer programming (MIP) problem Since the constraints are linear, this is a linear optimization problem in which the solutions are required to be integers. More information about algorithm can be found here: https://developers.google.com/optimization/mip/mip_example. We use the MIP solver 'SCIP' (Solving constraint integer problems). https://www.scipopt.org which is currently one of the fastest non-commercial solvers for mixed integer programming. SCIP is a framework for Constraint Integer Programming oriented towards the needs of mathematical programming experts who want to have total control of the solution process and access detailed information down to the guts of the solver. In SCIP the problem is successively divided into smaller subproblems (branching) that are solved recursively.(details of the algorithm can be found here: https://www.scipopt.org/doc/html/WHATPROBLEMS.php )
