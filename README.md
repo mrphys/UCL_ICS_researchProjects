@@ -1,18 +1,54 @@
-# UCL_ICS_researchProjects
-This is the code used for the UCL ICS iBSc and MSc to optimally match all students to their desired projects
+# UCL Institute of Cardiovascular Science iBSc and MSc Independent Research Project Matching Process
+
+## Overview
+
+This page documents the process used for the UCL Institute of Cardiovascular Science iBSc and MSc Cardiovascular Science programmes to match students and supervisors for their independent research project modules. 
+
+Both programmes employ an automated system for allocating projects to students at the start of each year. In this system, students indicate their preferred choices of projects from a list of all available proposals before being allocated to one of these choices by an automated, unbiased, and anonymous minimisation algorithm designed to ensure the fairest spread of choices across the entire cohort. 
+
+A workflow for the process can be seen below, followed by more detailed instructions and templates for each step of the process.
 
 
-Code used for matching UCL ICS students to research projects for the iBSc and MSc for 2022
-Here we use a mathematical optimizer to 'best' match between the students choices to the research projects available.
+### Workflow
 
-We have used Google's open source software suite for optimization, OR-Tools, which provides an MPSolver wrapper for solving linear programming and mixed integer programming problems.
+<img src = "https://github.com/scottchiesa/Project_Matching_Algorithm/blob/patch-1/Flowcharts.jpeg">
 
-This is a mixed integer programming (MIP) problem Since the constraints are linear, this is a linear optimization problem in which the solutions are required to be integers.
+## Call for Proposals
+### Generating a PDF List of Projects to Offer to Students
 
-More information about algorithm can be found here: https://developers.google.com/optimization/mip/mip_example
+1) Potential supervisors submit project proposals using form such as that shown in following [MS Form](https://forms.office.com/e/3XSMBR9YRP)
+2) Once complete, all proposals downloaded as Excel sheet similar to that shown in `ProjectList.xlsx` and filtered to separate iBSc and MSc projects.
+3) `ProjectList.xlsx` merged with `ProjectList_MailMerge.doc` to create PDF booklet to circulate to students on respective programmes.
 
-We use the MIP solver 'SCIP' (Solving constraint integer problems). https://www.scipopt.org which is currently one of the fastest non-commercial solvers for mixed integer programming.
+## Allocation of Projects
+### Student Selection of Preferred Projects
 
-SCIP is a framework for Constraint Integer Programming oriented towards the needs of mathematical programming experts who want to have total control of the solution process and access detailed information down to the guts of the solver.
+1) Students with pre-arranged projects (e.g. clinical students already working with pre-existing supervisor, students who have arranged external project) removed from allocation process.
+2) All remaining students select top six desired projects from list of available projects in order of preference using form such as that shown in following [MS Form](https://forms.office.com/e/EpW7UzMGwj)
+3) Once complete, all preferences downloaded as Excel sheet similar to that shown in `AllProjectData.xlsx`.
 
-In SCIP the problem is successively divided into smaller subproblems (branching) that are solved recursively.(details of the algorithm can be found here: https://www.scipopt.org/doc/html/WHATPROBLEMS.php )
+### Matching of Students and Projects
+
+Here we use a mathematical optimizer to 'best' match between the students choices to the research projects available. We have used Google's open source software suite for optimization, OR-Tools, which provides an MPSolver wrapper for solving linear programming and mixed integer programming problems. This is a mixed integer programming (MIP) problem Since the constraints are linear, this is a linear optimization problem in which the solutions are required to be integers. More information about algorithm can be found here: https://developers.google.com/optimization/mip/mip_example. We use the MIP solver 'SCIP' (Solving constraint integer problems). https://www.scipopt.org which is currently one of the fastest non-commercial solvers for mixed integer programming. SCIP is a framework for Constraint Integer Programming oriented towards the needs of mathematical programming experts who want to have total control of the solution process and access detailed information down to the guts of the solver. In SCIP the problem is successively divided into smaller subproblems (branching) that are solved recursively.(details of the algorithm can be found here: https://www.scipopt.org/doc/html/WHATPROBLEMS.php )
+
+1) Upload `FINAL_MatchingAlgorithm_MSc2022.ipynb` to a Colab Notebook on Google Drive using https://colab.research.google.com/
+2) Upload `AllProjectData.xlsx` to a folder on the same Google Drive ensuring that relevant line of code in opening section of .ipynb file points to this folder and file.
+3) Run code to automatically allocate projects and generate new file called `AllProjectData_time_date.xlsx`
+
+## Informing Staff and Students
+### Informing Supervisors of Successful Allocation of Student(s)
+
+1) Use `Supervisor Email Following Matching.docx` to link to PROJECT_RESULT_final tab in `AllProjectData_time_date.xlsx`. 
+2) Remove any supervisors from mailing list who have not been allocated a student. 
+3) Generate mail merge to automatically send to all successful supervisors. 
+
+### Informing Supervisors of Unsuccessful Allocation of Student 
+
+1) Use `Supervisor Email Following Unsuccessful Matching.docx` to link to PROJECT_RESULT_final tab in `AllProjectData_time_date.xlsx`. 
+2) Remove any supervisors from mailing list who have been allocated a student 
+3) Generate mail merge to automatically send to all successful supervisors. 
+
+### Informing Students of Allocated Project 
+
+1) Use `Student Email Following Matching.docx` to link to STUDENTS_RESULT_final tab in `AllProjectData_time_date.xlsx`. 
+2) Generate mail merge to automatically send to all students. 
