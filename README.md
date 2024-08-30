@@ -33,7 +33,7 @@ Here we use a mathematical optimizer to 'best' match between the students choice
 
 1) Upload ‘FINAL_MatchingAlgorithm_MSc2022.ipynb’ to a Colab Notebook on Google Drive using https://colab.research.google.com/
 2) Upload 'AllProjectData.xlsx' to a folder on the same Google Drive ensuring that line of code in opening section of .ipynb file points to this folder and file.
-3) Run Code to generate new file called ‘AllProjectData_time_date.xlsx’
+3) Run code to automatically allocate projects and generate new file called ‘AllProjectData_time_date.xlsx’
 
 ## Informing Staff and Students
 ### Informing Supervisors of Successful Allocation of Student(s)
