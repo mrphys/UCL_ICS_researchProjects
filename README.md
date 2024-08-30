@@ -10,7 +10,7 @@ This page documents the process used for the UCL Institute of Cardiovascular Sci
 ### Generating a PDF List of Projects to Offer to Students
 
 1) Potential supervisors submit project proposals using form such as that shown in following [MS Form](https://forms.office.com/e/3XSMBR9YRP)
-2) Once complete, all proposals downloaded as [MScProjectList](MScProjectList.xlsx) and merged with [ProjectList_MailMerge](ProjectList_MailMerge.doc) to create PDF booklet to circulate to students.
+2) Once complete, all proposals downloaded as MScProjectList.xlsx and merged with ProjectList_MailMerge.doc to create PDF booklet to circulate to students.
 
 
 Code used for matching UCL ICS students to research projects for the iBSc and MSc for 2022
