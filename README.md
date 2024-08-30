@@ -2,7 +2,11 @@
 
 ## Overview
 
-This page documents the process used for the UCL Institute of Cardiovascular Science iBSc and MSc Cardiovascular Science programmes to match students and supervisors for their independent research project modules. A workflow for the process can be seen below, followed by more detailed instructions and templates for each step of the process.
+This page documents the process used for the UCL Institute of Cardiovascular Science iBSc and MSc Cardiovascular Science programmes to match students and supervisors for their independent research project modules. 
+
+Both programmes employ an automated system for allocating projects to students at the start of each year. In this system, students indicate their preferred choices of projects from a list of all available proposals before being allocated to one of these choices by an automated, unbiased, and anonymous minimisation algorithm designed to ensure the fairest spread of choices across the entire cohort. 
+
+A workflow for the process can be seen below, followed by more detailed instructions and templates for each step of the process.
 
 ### Workflow
 
@@ -31,6 +35,19 @@ Here we use a mathematical optimizer to 'best' match between the students choice
 3) Run Code to generate new file called ‘AllProjectData_time_date.xlsx’
 
 ## Informing Staff and Students
-### Informing Supervisors of Successful Allocation of Student
+### Informing Supervisors of Successful Allocation of Student(s)
 
+1) Use ‘Supervisor Email Following Matching.docx’ to link to PROJECT_RESULT_final tab in ‘AllProjectData_time_date.xlsx’. 
+2) Remove any supervisors from mailing list who have not been allocated a student. 
+3) Generate mail merge to automatically send to all successful supervisors. 
 
+### Informing Supervisors of Unsuccessful Allocation of Student 
+
+1) Use ‘Supervisor Email Following Unsuccessful Matching.docx’ to link to PROJECT_RESULT_final tab in ‘AllProjectData_time_date.xlsx’. 
+2) Remove any supervisors from mailing list who have been allocated a student 
+3) Generate mail merge to automatically send to all successful supervisors. 
+
+### Informing Students of Allocated Project 
+
+1) Use ‘Student Email Following Matching.docx’ to link to STUDENTS_RESULT_final tab in ‘AllProjectData_time_date.xlsx’. 
+2) Generate mail merge to automatically send to all students. 
