@@ -2,14 +2,15 @@
 
 ## Overview
 
-This page documents the process used for the UCL Institute of Cardiovascular Science iBSc and MSc Cardiovascular Science programmes to match students and supervisors for their independent research project modules. A workflow for the process can be seen in the flowchart below, followed by more detailed instructions and templates for each step of the process.
+This page documents the process used for the UCL Institute of Cardiovascular Science iBSc and MSc Cardiovascular Science programmes to match students and supervisors for their independent research project modules. A workflow for the process can be seen below, followed by more detailed instructions and templates for each step of the process.
 
 <img src = "https://github.com/scottchiesa/Project_Matching_Algorithm/blob/patch-1/Flowcharts.jpeg">
 
 ## Call for Proposals
 ### Generating a PDF List of Projects to Offer to Students
 
-
+1) Potential supervisors submit project proposals using form such as that shown in following [MS Form](https://forms.office.com/e/3XSMBR9YRP)
+2) Once complete, all proposals downloaded as [MScProjectList](MScProjectList.xlsx) and merged with [ProjectList_MailMerge](ProjectList_MailMerge.doc) to create PDF booklet to circulate to students.
 
 
 Code used for matching UCL ICS students to research projects for the iBSc and MSc for 2022
