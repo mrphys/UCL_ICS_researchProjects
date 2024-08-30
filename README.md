@@ -4,6 +4,8 @@
 
 This page documents the process used for the UCL Institute of Cardiovascular Science iBSc and MSc Cardiovascular Science programmes to match students and supervisors for their independent research project modules. A workflow for the process can be seen in the flowchart below. In short, however, the 
 
+https://github.com/scottchiesa/Project_Matching_Algorithm/blob/patch-1/Flowcharts.jpeg
+
 
 
 Code used for matching UCL ICS students to research projects for the iBSc and MSc for 2022
