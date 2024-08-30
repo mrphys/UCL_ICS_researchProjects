@@ -10,10 +10,19 @@ This page documents the process used for the UCL Institute of Cardiovascular Sci
 ### Generating a PDF List of Projects to Offer to Students
 
 1) Potential supervisors submit project proposals using form such as that shown in following [MS Form](https://forms.office.com/e/3XSMBR9YRP)
-2) Once complete, all proposals downloaded as MScProjectList.xlsx and merged with ProjectList_MailMerge.doc to create PDF booklet to circulate to students.
+2) Once complete, all proposals downloaded as Excel sheet similar to that shown in ProjectList.xlsx and filtered to separate iBSc and MSc projects.
+3) MScProjectList.xlsx merged with ProjectList_MailMerge.doc to create PDF booklet to circulate to students on respective programmes.
+
+## Allocation of Projects
+### Student Selection of Preferred Projects
+
+1) Students with pre-arranged projects (e.g. clinical students already working with pre-existing supervisor, students who have arranged external project) removed from allocation process.
+2) All remaining students select top 6 preferences from list of available projects using form such as that shown in following [MS Form](https://forms.office.com/e/EpW7UzMGwj)
+3) Once complete, all preferences downloaded as Excel sheet similar to that shown in AllProjectData.xlsx.
+
+### Matching of Students and Projects
 
 
-Code used for matching UCL ICS students to research projects for the iBSc and MSc for 2022
 Here we use a mathematical optimizer to 'best' match between the students choices to the research projects available.
 
 We have used Google's open source software suite for optimization, OR-Tools, which provides an MPSolver wrapper for solving linear programming and mixed integer programming problems.
