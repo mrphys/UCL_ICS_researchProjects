@@ -1,4 +1,4 @@
-# UCL Institute of Cardiovascular Science iBSc and MSc in Cardiovascular Science Project Matching Algorithm
+# UCL Institute of Cardiovascular Science iBSc and MSc Independent Research Project Matching Process
 
 ## Overview
 
