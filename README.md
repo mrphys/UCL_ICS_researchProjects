@@ -1,6 +1,9 @@
 # UCL Institute of Cardiovascular Science iBSc and MSc in Cardiovascular Science Project Matching Algorithm
 
-This is the code used for the UCL ICS iBSc and MSc Cardiovascular Science programmes to optimally match all students to their desired projects.
+## Overview
+
+This page documents the process used for the UCL Institute of Cardiovascular Science iBSc and MSc Cardiovascular Science programmes to match students and supervisors for their independent research project modules. A workflow for the process can be seen in the flowchart below. In short, however, the 
+
 
 
 Code used for matching UCL ICS students to research projects for the iBSc and MSc for 2022
